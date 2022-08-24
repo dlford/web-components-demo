@@ -13,8 +13,9 @@
   <body>
     <main>
       <heading-component name="Bob"></heading-component>
-      <counter-component data-counter-display></counter-component>
-      <button data-counter-button>Click Me!</button>
+      <counter-component data-counter-display>
+        <button slot="btn" data-counter-button>Click Me!</button>
+      </counter-component>
     </main>
     <script type="module" src="index.js"></script>
   </body>
